@@ -1,16 +1,64 @@
 {
-  "posts":[
+  "companies":[
     {
-      "id" : 0,
-      "title": "First post!",
-      "content" : "My first content!"
+      "id" : 1,
+      "organizationName": "Tasakesti OÜ",
+      "childCompanies": [],
+      "mainContact": "1", // person_id
+      "clientGroup": "1"
     }
   ],
-  "comments" : [
+  "persons" : [
     {
       "id": 1,
-      "content": "Wow such content!",
-      "username": "zero_cool"
+      "companyId": "1",
+      "firstName": "Kaarel",
+      "lastName": "Kaljuvee",
+      "phoneNumbers": ["55555555", "55555556"],
+      "workPhoneNumbers": ["6555556", "6555555"],
+      "emails": ["abc@personal.ee", "cde@personal.ee"],
+      "workEmails": ["abc@work.ee", "cde@work.ee"],
+      "clientGroup": "2",
+      "clientType": "1"
+    },{
+      "id": 2,
+      "companyId": "",
+      "firstName": "Kaire",
+      "lastName": "Hõbemägi",
+      "phoneNumbers": ["55543333", "55543322"],
+      "workPhoneNumbers": ["6755444", "6755443"],
+      "emails": ["kkk@personal.ee", "ddd@personal.ee"],
+      "workEmails": ["ppp@work.ee", "ooo@work.ee"],
+      "clientGroup": "3",
+      "clientType": "0"
+    }
+  ],
+  "clientGroups":[
+    {
+      "id" : 1,
+      "groupName": "Rich clients"
+    },
+    {
+      "id" : 2,
+      "groupName": "Poor clients"
+    },
+    {
+      "id" : 3,
+      "groupName": "Foreigners"
+    }
+  ],
+  "classifiers":[
+    {
+      "id" : 1,
+      "code": "clientType",
+      "name": "Private",
+      "value": "0"
+    },
+    {
+      "id" : 2,
+      "code": "clientType",
+      "name": "Organization owner",
+      "value": "1"
     }
   ]
 }
