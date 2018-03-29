@@ -4,7 +4,7 @@
       "id" : 1,
       "organizationName": "Tasakesti OÜ",
       "childCompanies": [],
-      "mainContact": "1", // person_id
+      "mainContact": "1",
       "clientGroup": "1"
     }
   ],
