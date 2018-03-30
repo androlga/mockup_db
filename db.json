@@ -59,6 +59,34 @@
       "code": "clientType",
       "name": "Organization owner",
       "value": "1"
+    },
+    {
+      "id" : 3,
+      "code": "tableType",
+      "name": "Persons",
+      "value": "0"
+    },
+    {
+      "id" : 4,
+      "code": "tableType",
+      "name": "Companies",
+      "value": "1"
+    }
+  ],
+  "displayedTableColumns":[
+    {
+      "id" : 1,
+      "erplyClientIdentifier": "X",
+      "tableType": "0",
+      "visibleColumns": ["firstName", "lastName", "workEmails", "workPhoneNumbers"],
+      "invisibleColumns": ["emails", "phoneNumbers"]
+    },
+    {
+      "id" : 2,
+      "erplyClientIdentifier": "X",
+      "tableType": "1",
+      "visibleColumns": ["firstName", "lastName", "workEmails", "workPhoneNumbers"],
+      "invisibleColumns": ["emails", "phoneNumbers"]
     }
   ]
 }
