@@ -3,7 +3,7 @@
     {
       "id" : 1,
       "organizationName": "Tasakesti OÜ",
-      "childCompanies": [],
+      "childCompanies": "",
       "mainContact": "1",
       "clientGroup": "1"
     }
@@ -14,10 +14,10 @@
       "companyId": "1",
       "firstName": "Kaarel",
       "lastName": "Kaljuvee",
-      "phoneNumbers": ["55555555", "55555556"],
-      "workPhoneNumbers": ["6555556", "6555555"],
-      "emails": ["abc@personal.ee", "cde@personal.ee"],
-      "workEmails": ["abc@work.ee", "cde@work.ee"],
+      "phoneNumbers": "55555555, 55555556",
+      "workPhoneNumbers": "6555556, 6555555",
+      "emails": "abc@personal.ee, cde@personal.ee",
+      "workEmails": "abc@work.ee, cde@work.ee",
       "clientGroup": "2",
       "clientType": "1"
     },{
@@ -25,10 +25,10 @@
       "companyId": "",
       "firstName": "Kaire",
       "lastName": "Hõbemägi",
-      "phoneNumbers": ["55543333", "55543322"],
-      "workPhoneNumbers": ["6755444", "6755443"],
-      "emails": ["kkk@personal.ee", "ddd@personal.ee"],
-      "workEmails": ["ppp@work.ee", "ooo@work.ee"],
+      "phoneNumbers": "55543333, 55543322",
+      "workPhoneNumbers": "6755444, 6755443",
+      "emails": "kkk@personal.ee, ddd@personal.ee",
+      "workEmails": "ppp@work.ee, ooo@work.ee",
       "clientGroup": "3",
       "clientType": "0"
     }
@@ -78,15 +78,15 @@
       "id" : 1,
       "erplyClientIdentifier": "X",
       "tableType": "0",
-      "visibleColumns": ["firstName", "lastName", "workEmails", "workPhoneNumbers"],
-      "invisibleColumns": ["emails", "phoneNumbers"]
+      "visibleColumns": "firstName, lastName, workEmails, workPhoneNumbers",
+      "invisibleColumns": "emails, phoneNumbers"
     },
     {
       "id" : 2,
       "erplyClientIdentifier": "X",
       "tableType": "1",
-      "visibleColumns": ["firstName", "lastName", "workEmails", "workPhoneNumbers"],
-      "invisibleColumns": ["emails", "phoneNumbers"]
+      "visibleColumns": "firstName, lastName, workEmails, workPhoneNumbers",
+      "invisibleColumns": "emails, phoneNumbers"
     }
   ]
 }
