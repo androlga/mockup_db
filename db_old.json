@@ -1,0 +1,92 @@
+{
+  "companies":[
+    {
+      "id" : 1,
+      "organizationName": "Tasakesti OÜ",
+      "childCompanies": "",
+      "mainContact": "1",
+      "clientGroup": "1"
+    }
+  ],
+  "persons" : [
+    {
+      "id": 1,
+      "companyId": "1",
+      "firstName": "Kaarel",
+      "lastName": "Kaljuvee",
+      "phoneNumbers": "55555555, 55555556",
+      "workPhoneNumbers": "6555556, 6555555",
+      "emails": "abc@personal.ee, cde@personal.ee",
+      "workEmails": "abc@work.ee, cde@work.ee",
+      "clientGroup": "2",
+      "clientType": "1"
+    },{
+      "id": 2,
+      "companyId": "",
+      "firstName": "Kaire",
+      "lastName": "Hõbemägi",
+      "phoneNumbers": "55543333, 55543322",
+      "workPhoneNumbers": "6755444, 6755443",
+      "emails": "kkk@personal.ee, ddd@personal.ee",
+      "workEmails": "ppp@work.ee, ooo@work.ee",
+      "clientGroup": "3",
+      "clientType": "0"
+    }
+  ],
+  "clientGroups":[
+    {
+      "id" : 1,
+      "groupName": "Rich clients"
+    },
+    {
+      "id" : 2,
+      "groupName": "Poor clients"
+    },
+    {
+      "id" : 3,
+      "groupName": "Foreigners"
+    }
+  ],
+  "classifiers":[
+    {
+      "id" : 1,
+      "code": "clientType",
+      "name": "Private",
+      "value": "0"
+    },
+    {
+      "id" : 2,
+      "code": "clientType",
+      "name": "Organization owner",
+      "value": "1"
+    },
+    {
+      "id" : 3,
+      "code": "tableType",
+      "name": "Persons",
+      "value": "0"
+    },
+    {
+      "id" : 4,
+      "code": "tableType",
+      "name": "Companies",
+      "value": "1"
+    }
+  ],
+  "displayedTableColumns":[
+    {
+      "id" : 1,
+      "erplyClientIdentifier": "X",
+      "tableType": "0",
+      "visibleColumns": "firstName, lastName, workEmails, workPhoneNumbers",
+      "invisibleColumns": "emails, phoneNumbers"
+    },
+    {
+      "id" : 2,
+      "erplyClientIdentifier": "X",
+      "tableType": "1",
+      "visibleColumns": "firstName, lastName, workEmails, workPhoneNumbers",
+      "invisibleColumns": "emails, phoneNumbers"
+    }
+  ]
+}
