@@ -22,47 +22,65 @@
     {
       "id": 1,
       "name": "companyId",
-      "position": 1
+      "position": 1,
+	  "columnType": "",
+	  "defaultColumn": "true"
     },
     {
       "id": 2,
       "name": "firstName",
-      "position": 2
+      "position": 2,
+	  "columnType": "",
+	  "defaultColumn": "true"
     },
     {
       "id": 3,
       "name": "lastName",
-      "position": 3
+      "position": 3,
+	  "columnType": "",
+	  "defaultColumn": "true"
     },
     {
       "id": 4,
       "name": "phoneNumbers",
-      "position": 4
+      "position": 4,
+	  "columnType": "",
+	  "defaultColumn": "true"
     },
     {
       "id": 5,
       "name": "workPhoneNumbers",
-      "position": 5
+      "position": 5,
+	  "columnType": "",
+	  "defaultColumn": "true"
     },
     {
       "id": 6,
       "name": "emails",
-      "position": 6
+      "position": 6,
+	  "columnType": "",
+	  "defaultColumn": "true"
     },
     {
       "id": 7,
       "name": "workEmails",
-      "position": 7
+      "position": 7,
+	  "columnType": "",
+	  "defaultColumn": "true"
     },
     {
       "id": 8,
       "name": "clientGroup",
-      "position": 8
+      "position": 8,
+	  "columnType": "",
+	  "defaultColumn": "true"
     },
     {
       "id": 9,
       "name": "clientType",
-      "position": 9
+      "position": 9,
+	  "columnType": "",
+	  "defaultColumn": "true"
     }
   ],
   "personColumnsValues": [
@@ -231,22 +249,30 @@
     {
       "id": 1,
       "name": "organizationName",
-      "position": 1
+      "position": 1,
+	  "columnType": "",
+	  "defaultColumn": "true"
     },
     {
       "id": 2,
       "name": "childCompanies",
-      "position": 2
+      "position": 2,
+	  "columnType": "",
+	  "defaultColumn": "true"
     },
     {
       "id": 3,
       "name": "mainContact",
-      "position": 3
+      "position": 3,
+	  "columnType": "",
+	  "defaultColumn": "true"
     },
     {
       "id": 4,
       "name": "clientGroup",
-      "position": 4
+      "position": 4,
+	  "columnType": "",
+	  "defaultColumn": "true"
     }
   ],
   "companyColumnsValues": [
