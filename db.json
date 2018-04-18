@@ -194,7 +194,7 @@
       "id": 19,
       "personId": 3,
       "columnId": 1,
-      "value": "2"
+      "value": "1"
     },
     {
       "id": 20,
@@ -364,5 +364,42 @@
       "name": "Companies",
       "value": "1"
     }
-  ]
+  ],
+  "deals": [
+    { "id": 1,
+      "title": "Rehvi müük",
+      "contactPersonId": "3",
+      "companyId":"2",
+      "value":"100",
+      "currency":"Euro",
+      "comment":"cheap deal",
+      "dealState":"1"
+    },
+    { "id": 2,
+      "title": "Rehvi ostmine hulgilaost",
+      "contactPersonId": "2",
+      "companyId":"2",
+      "value":"10000",
+      "currency":"Euro",
+      "comment":"MFD",
+      "dealState":"1"
+    }
+	 ],
+	  "dealState": [
+		{ "id": 1,
+		  "name":"Lead in "
+		},
+		{ "id": 2,
+		  "name":"Contact Made"
+		},
+		{ "id": 3,
+		  "name":"Needs Defined"
+		},
+		{ "id": 4,
+		  "name":"Proposal made"
+		},
+		{ "id": 5,
+		  "name":"Negotiation stated"
+		}
+	  ]
 }
