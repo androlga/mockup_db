@@ -382,7 +382,24 @@
       "value":"10000",
       "currency":"Euro",
       "comment":"MFD",
-      "dealState":"1"
+      "dealState":"2"
+    },{ "id": 3,
+      "title": "Rehvi ostmine hulgilaost",
+      "contactPersonId": "2",
+      "companyId":"2",
+      "value":"10000",
+      "currency":"Euro",
+      "comment":"MFD",
+      "dealState":"3"
+    },
+	{ "id": 4,
+      "title": "Rehvi ostmine hulgilaost",
+      "contactPersonId": "2",
+      "companyId":"2",
+      "value":"10000",
+      "currency":"Euro",
+      "comment":"MFD",
+      "dealState":"4"
     }
 	 ],
 	  "dealState": [
