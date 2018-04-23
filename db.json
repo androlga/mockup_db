@@ -375,7 +375,7 @@
       "currency":"Euro",
       "comment":"cheap deal",
       "dealState":"1",
-	  "dealStageNameId":1
+	  
     },
     { "id": 2,
       "title": "Rehvi ostmine hulgilaost",
@@ -386,7 +386,7 @@
       "currency":"Euro",
       "comment":"MFD",
       "dealState":"2",
-	  "dealStageNameId":1
+	  
     },{ "id": 3,
       "title": "Rehvi ostmine hulgilaost",
       "contactPersonId": "2",
@@ -396,7 +396,7 @@
       "currency":"Euro",
       "comment":"MFD",
       "dealState":"3",
-	  "dealStageNameId":1
+	  
     },
 	{ "id": 4,
       "title": "Rehvi ostmine hulgilaost",
@@ -407,7 +407,7 @@
       "currency":"Euro",
       "comment":"MFD",
       "dealState":"4",
-	  "dealStageNameId":1
+	  
     },
 	{ "id": 5,
       "title": "Second dashboard title",
@@ -418,58 +418,30 @@
       "currency":"Euro",
       "comment":"yes me",
       "dealState":"1",
-	  "dealStageNameId":2
+	  
     }
 	 ],
 	  "dealState": [
 		{ "id": 1,
 		  "name":"Lead in ",
-		  "stageId":1
+		  
 		},
 		{ "id": 2,
 		  "name":"Contact Made",
-		  "stageId":1
+		  
 		},
 		{ "id": 3,
 		  "name":"Needs Defined",
-		  "stageId":1
+		  
 		},
 		{ "id": 4,
 		  "name":"Proposal made",
-		  "stageId":1
+		  
 		},
 		{ "id": 5,
 		  "name":"Negotiation stated",
-		  "stageId":1
-		},
-		{ "id": 6,
-		  "name":"Lead in ",
-		  "stageId":2
-		},
-		{ "id": 7,
-		  "name":"Contact Made",
-		  "stageId":2
-		},
-		{ "id": 8,
-		  "name":"Needs Defined",
-		  "stageId":2
-		},
-		{ "id": 9,
-		  "name":"Proposal made",
-		  "stageId":2
-		},
-		{ "id": 10,
-		  "name":"Negotiation ended",
-		  "stageId":2
+		  
 		}
-	  ],
-	  "dealStages":[{
-		"id":1,
-		"name":"Wheels Stage"
-	  },
-	  {
-	  "id":2,
-	  "name":"Second stage"
-	  }
+		
 	  ]
 }
