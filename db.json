@@ -374,7 +374,7 @@
       "value":"100",
       "currency":"Euro",
       "comment":"cheap deal",
-      "dealState":"1",
+      "dealState":"1"
 	  
     },
     { "id": 2,
@@ -385,7 +385,7 @@
       "value":"10000",
       "currency":"Euro",
       "comment":"MFD",
-      "dealState":"2",
+      "dealState":"2"
 	  
     },{ "id": 3,
       "title": "Rehvi ostmine hulgilaost",
@@ -395,7 +395,7 @@
       "value":"10000",
       "currency":"Euro",
       "comment":"MFD",
-      "dealState":"3",
+      "dealState":"3"
 	  
     },
 	{ "id": 4,
@@ -406,7 +406,7 @@
       "value":"10000",
       "currency":"Euro",
       "comment":"MFD",
-      "dealState":"4",
+      "dealState":"4"
 	  
     },
 	{ "id": 5,
@@ -417,29 +417,29 @@
       "value":"100000",
       "currency":"Euro",
       "comment":"yes me",
-      "dealState":"1",
+      "dealState":"1"
 	  
     }
 	 ],
 	  "dealState": [
 		{ "id": 1,
-		  "name":"Lead in ",
+		  "name":"Lead in "
 		  
 		},
 		{ "id": 2,
-		  "name":"Contact Made",
+		  "name":"Contact Made"
 		  
 		},
 		{ "id": 3,
-		  "name":"Needs Defined",
+		  "name":"Needs Defined"
 		  
 		},
 		{ "id": 4,
-		  "name":"Proposal made",
+		  "name":"Proposal made"
 		  
 		},
 		{ "id": 5,
-		  "name":"Negotiation stated",
+		  "name":"Negotiation stated"
 		  
 		}
 		
