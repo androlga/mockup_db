@@ -374,7 +374,8 @@
       "value":"100",
       "currency":"Euro",
       "comment":"cheap deal",
-      "dealState":"1"
+      "dealState":"1",
+	  "dealStageNameId":1
     },
     { "id": 2,
       "title": "Rehvi ostmine hulgilaost",
@@ -384,7 +385,8 @@
       "value":"10000",
       "currency":"Euro",
       "comment":"MFD",
-      "dealState":"2"
+      "dealState":"2",
+	  "dealStageNameId":1
     },{ "id": 3,
       "title": "Rehvi ostmine hulgilaost",
       "contactPersonId": "2",
@@ -393,7 +395,8 @@
       "value":"10000",
       "currency":"Euro",
       "comment":"MFD",
-      "dealState":"3"
+      "dealState":"3",
+	  "dealStageNameId":1
     },
 	{ "id": 4,
       "title": "Rehvi ostmine hulgilaost",
@@ -403,24 +406,70 @@
       "value":"10000",
       "currency":"Euro",
       "comment":"MFD",
-      "dealState":"4"
+      "dealState":"4",
+	  "dealStageNameId":1
+    }
+	{ "id": 5,
+      "title": "Second dashboard title",
+      "contactPersonId": "2",
+      "companyId":"2",
+      "stateActions": "",
+      "value":"100000",
+      "currency":"Euro",
+      "comment":"yes me",
+      "dealState":"1",
+	  "dealStageNameId":2
     }
 	 ],
 	  "dealState": [
 		{ "id": 1,
-		  "name":"Lead in "
+		  "name":"Lead in ",
+		  "stageId":1
 		},
 		{ "id": 2,
-		  "name":"Contact Made"
+		  "name":"Contact Made",
+		  "stageId":1
 		},
 		{ "id": 3,
-		  "name":"Needs Defined"
+		  "name":"Needs Defined",
+		  "stageId":1
 		},
 		{ "id": 4,
-		  "name":"Proposal made"
+		  "name":"Proposal made",
+		  "stageId":1
 		},
 		{ "id": 5,
-		  "name":"Negotiation stated"
+		  "name":"Negotiation stated",
+		  "stageId":1
+		},
+		{ "id": 6,
+		  "name":"Lead in ",
+		  "stageId":2
+		},
+		{ "id": 7,
+		  "name":"Contact Made",
+		  "stageId":2
+		},
+		{ "id": 8,
+		  "name":"Needs Defined",
+		  "stageId":2
+		},
+		{ "id": 9,
+		  "name":"Proposal made",
+		  "stageId":2
+		},
+		{ "id": 10,
+		  "name":"Negotiation ended",
+		  "stageId":2
 		}
+	  ],
+	  "dealStages":[{
+		"id":1,
+		"name":"Wheels Stage"
+	  },
+	  {
+	  "id":2,
+	  "name":"Second stage"
+	  }
 	  ]
 }
