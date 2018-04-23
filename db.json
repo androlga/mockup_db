@@ -408,7 +408,7 @@
       "comment":"MFD",
       "dealState":"4",
 	  "dealStageNameId":1
-    }
+    },
 	{ "id": 5,
       "title": "Second dashboard title",
       "contactPersonId": "2",
