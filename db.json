@@ -422,26 +422,67 @@
     }
 	 ],
 	  "dealState": [
-		{ "id": 1,
-		  "name":"Lead in "
-		  
-		},
-		{ "id": 2,
-		  "name":"Contact Made"
-		  
-		},
-		{ "id": 3,
-		  "name":"Needs Defined"
-		  
-		},
-		{ "id": 4,
-		  "name":"Proposal made"
-		  
-		},
-		{ "id": 5,
-		  "name":"Negotiation stated"
-		  
-		}
-		
-	  ]
+    {
+      "id": 1,
+      "name": "Lead in",
+      "stagePipelineId": 1
+    },
+    {
+      "id": 2,
+      "name": "Contact Made",
+      "stagePipelineId": 1
+    },
+    {
+      "id": 3,
+      "name": "Needs Defined",
+      "stagePipelineId": 1
+    },
+    {
+      "id": 4,
+      "name": "Proposal made",
+      "stagePipelineId": 1
+    },
+    {
+      "id": 5,
+      "name": "Negotiation stated",
+      "stagePipelineId": 1
+    },
+    {
+      "id": 6,
+      "name": "Lead in1",
+      "stagePipelineId": 2
+    },
+    {
+      "id": 7,
+      "name": "Contact Made2",
+      "stagePipelineId": 2
+    },
+    {
+      "id": 8,
+      "name": "Needs Defined3",
+      "stagePipelineId": 2
+    },
+    {
+      "id": 9,
+      "name": "Proposal made4",
+      "stagePipelineId": 2
+    },
+    {
+      "id": 10,
+      "name": "Negotiation stated5",
+      "stagePipelineId": 2
+    }
+  ],
+  "stagePipeline": [
+    {
+      "id": 1,
+      "name": "testPipeline1",
+      "default": "1"
+    },
+    {
+      "id": 2,
+      "name": "testPipeline2",
+      "default": "0"
+    }
+  ]
 }
