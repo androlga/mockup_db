@@ -22,6 +22,7 @@
     {
       "id": 1,
       "name": "companyId",
+      "title": "Company ID",
       "position": 1,
 	  "columnType": "numeric",
 	  "defaultColumn": "true"
@@ -29,6 +30,7 @@
     {
       "id": 2,
       "name": "firstName",
+      "title": "First name",
       "position": 2,
 	  "columnType": "text",
 	  "defaultColumn": "true"
@@ -36,6 +38,7 @@
     {
       "id": 3,
       "name": "lastName",
+      "title": "Last name",
       "position": 3,
 	  "columnType": "text",
 	  "defaultColumn": "true"
@@ -43,6 +46,7 @@
     {
       "id": 4,
       "name": "phoneNumbers",
+      "title": "Phone number",
       "position": 4,
 	  "columnType": "phone",
 	  "defaultColumn": "true"
@@ -50,6 +54,7 @@
     {
       "id": 5,
       "name": "workPhoneNumbers",
+      "title": "Work phone",
       "position": 5,
 	  "columnType": "phone",
 	  "defaultColumn": "true"
@@ -57,6 +62,7 @@
     {
       "id": 6,
       "name": "emails",
+      "title": "Email",
       "position": 6,
 	  "columnType": "email",
 	  "defaultColumn": "true"
@@ -64,6 +70,7 @@
     {
       "id": 7,
       "name": "workEmails",
+      "title": "Work email",
       "position": 7,
 	  "columnType": "email",
 	  "defaultColumn": "true"
@@ -71,6 +78,7 @@
     {
       "id": 8,
       "name": "clientGroup",
+      "title": "Client group",
       "position": 8,
 	  "columnType": "numeric",
 	  "defaultColumn": "true"
@@ -78,6 +86,7 @@
     {
       "id": 9,
       "name": "clientType",
+      "title": "Client type",
       "position": 9,
 	  "columnType": "numeric",
 	  "defaultColumn": "true"
@@ -189,7 +198,7 @@
       "id": 18,
       "personId": 2,
       "columnId": 9,
-      "value": "2"
+      "value": "1"
     },{
       "id": 19,
       "personId": 3,
@@ -249,6 +258,7 @@
     {
       "id": 1,
       "name": "organizationName",
+      "title": "Organization name",
       "position": 1,
 	  "columnType": "text",
 	  "defaultColumn": "true"
@@ -256,6 +266,7 @@
     {
       "id": 2,
       "name": "childCompanies",
+      "title": "Child companies",
       "position": 2,
 	  "columnType": "numeric",
 	  "defaultColumn": "true"
@@ -263,6 +274,7 @@
     {
       "id": 3,
       "name": "mainContact",
+      "title": "Main contact",
       "position": 3,
 	  "columnType": "numeric",
 	  "defaultColumn": "true"
@@ -270,9 +282,18 @@
     {
       "id": 4,
       "name": "clientGroup",
+      "title": "Client group",
       "position": 4,
 	  "columnType": "numeric",
 	  "defaultColumn": "true"
+    },
+    {
+      "id": 5,
+      "name": "address",
+      "title": "Address",
+      "position": 5,
+      "columnType": "text",
+      "defaultColumn": "true"
     }
 
   ],
@@ -301,29 +322,41 @@
       "columnId": 4,
       "value": "1"
     },
-	{
+    {
       "id": 5,
+      "companyId": 1,
+      "columnId": 5,
+      "value": "Mustamäe 25-4, Tallinn, Estonia"
+    },
+	{
+      "id": 6,
       "companyId": 2,
       "columnId": 1,
       "value": "Mega Company AS"
     },
     {
-      "id": 6,
+      "id": 7,
       "companyId": 2,
       "columnId": 2,
       "value": "1"
     },
     {
-      "id": 7,
+      "id": 8,
       "companyId": 2,
       "columnId": 3,
       "value": "1"
     },
     {
-      "id": 8,
+      "id": 9,
       "companyId": 2,
       "columnId": 4,
       "value": "1"
+    },
+    {
+      "id": 10,
+      "companyId": 2,
+      "columnId": 5,
+      "value": "Kristiine 17d, Tallinn, Estonia"
     }
   ],
   "clientGroups":[
