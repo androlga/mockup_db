@@ -23,63 +23,63 @@
       "id": 1,
       "name": "companyId",
       "position": 1,
-	  "columnType": "",
+	  "columnType": "numeric",
 	  "defaultColumn": "true"
     },
     {
       "id": 2,
       "name": "firstName",
       "position": 2,
-	  "columnType": "",
+	  "columnType": "text",
 	  "defaultColumn": "true"
     },
     {
       "id": 3,
       "name": "lastName",
       "position": 3,
-	  "columnType": "",
+	  "columnType": "text",
 	  "defaultColumn": "true"
     },
     {
       "id": 4,
       "name": "phoneNumbers",
       "position": 4,
-	  "columnType": "",
+	  "columnType": "phone",
 	  "defaultColumn": "true"
     },
     {
       "id": 5,
       "name": "workPhoneNumbers",
       "position": 5,
-	  "columnType": "",
+	  "columnType": "phone",
 	  "defaultColumn": "true"
     },
     {
       "id": 6,
       "name": "emails",
       "position": 6,
-	  "columnType": "",
+	  "columnType": "email",
 	  "defaultColumn": "true"
     },
     {
       "id": 7,
       "name": "workEmails",
       "position": 7,
-	  "columnType": "",
+	  "columnType": "email",
 	  "defaultColumn": "true"
     },
     {
       "id": 8,
       "name": "clientGroup",
       "position": 8,
-	  "columnType": "",
+	  "columnType": "numeric",
 	  "defaultColumn": "true"
     },
     {
       "id": 9,
       "name": "clientType",
       "position": 9,
-	  "columnType": "",
+	  "columnType": "numeric",
 	  "defaultColumn": "true"
     }
   ],
@@ -194,7 +194,7 @@
       "id": 19,
       "personId": 3,
       "columnId": 1,
-      "value": "1"
+      "value": "2"
     },
     {
       "id": 20,
@@ -250,28 +250,28 @@
       "id": 1,
       "name": "organizationName",
       "position": 1,
-	  "columnType": "",
+	  "columnType": "text",
 	  "defaultColumn": "true"
     },
     {
       "id": 2,
       "name": "childCompanies",
       "position": 2,
-	  "columnType": "",
+	  "columnType": "numeric",
 	  "defaultColumn": "true"
     },
     {
       "id": 3,
       "name": "mainContact",
       "position": 3,
-	  "columnType": "",
+	  "columnType": "numeric",
 	  "defaultColumn": "true"
     },
     {
       "id": 4,
       "name": "clientGroup",
       "position": 4,
-	  "columnType": "",
+	  "columnType": "numeric",
 	  "defaultColumn": "true"
     }
   ],
@@ -363,126 +363,6 @@
       "code": "tableType",
       "name": "Companies",
       "value": "1"
-    }
-  ],
-  "deals": [
-    { "id": 1,
-      "title": "Rehvi müük",
-      "contactPersonId": "3",
-      "companyId":"2",
-      "stateActions": "",
-      "value":"100",
-      "currency":"Euro",
-      "comment":"cheap deal",
-      "dealState":"1"
-	  
-    },
-    { "id": 2,
-      "title": "Rehvi ostmine hulgilaost",
-      "contactPersonId": "2",
-      "companyId":"2",
-      "stateActions": "",
-      "value":"10000",
-      "currency":"Euro",
-      "comment":"MFD",
-      "dealState":"2"
-	  
-    },{ "id": 3,
-      "title": "Rehvi ostmine hulgilaost",
-      "contactPersonId": "2",
-      "companyId":"2",
-      "stateActions": "lost",
-      "value":"10000",
-      "currency":"Euro",
-      "comment":"MFD",
-      "dealState":"3"
-	  
-    },
-	{ "id": 4,
-      "title": "Rehvi ostmine hulgilaost",
-      "contactPersonId": "2",
-      "companyId":"2",
-      "stateActions": "win",
-      "value":"10000",
-      "currency":"Euro",
-      "comment":"MFD",
-      "dealState":"4"
-	  
-    },
-	{ "id": 5,
-      "title": "Second dashboard title",
-      "contactPersonId": "2",
-      "companyId":"2",
-      "stateActions": "",
-      "value":"100000",
-      "currency":"Euro",
-      "comment":"yes me",
-      "dealState":"1"
-	  
-    }
-	 ],
-	  "dealState": [
-    {
-      "id": 1,
-      "name": "Lead in",
-      "stagePipelineId": 1
-    },
-    {
-      "id": 2,
-      "name": "Contact Made",
-      "stagePipelineId": 1
-    },
-    {
-      "id": 3,
-      "name": "Needs Defined",
-      "stagePipelineId": 1
-    },
-    {
-      "id": 4,
-      "name": "Proposal made",
-      "stagePipelineId": 1
-    },
-    {
-      "id": 5,
-      "name": "Negotiation stated",
-      "stagePipelineId": 1
-    },
-    {
-      "id": 6,
-      "name": "Lead in1",
-      "stagePipelineId": 2
-    },
-    {
-      "id": 7,
-      "name": "Contact Made2",
-      "stagePipelineId": 2
-    },
-    {
-      "id": 8,
-      "name": "Needs Defined3",
-      "stagePipelineId": 2
-    },
-    {
-      "id": 9,
-      "name": "Proposal made4",
-      "stagePipelineId": 2
-    },
-    {
-      "id": 10,
-      "name": "Negotiation stated5",
-      "stagePipelineId": 2
-    }
-  ],
-  "stagePipeline": [
-    {
-      "id": 1,
-      "name": "testPipeline1",
-      "default": "1"
-    },
-    {
-      "id": 2,
-      "name": "testPipeline2",
-      "default": "0"
     }
   ]
 }
