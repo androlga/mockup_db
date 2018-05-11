@@ -115,25 +115,25 @@
       "id": 4,
       "personId": 1,
       "columnId": 4,
-      "value": "55555555, 55555556"
+      "value": "55555555"
     },
     {
       "id": 5,
       "personId": 1,
       "columnId": 5,
-      "value": "6555556, 6555555"
+      "value": "6555556"
     },
     {
       "id": 6,
       "personId": 1,
       "columnId": 6,
-      "value": "abc@personal.ee, cde@personal.ee"
+      "value": "abc@personal.ee"
     },
     {
       "id": 7,
       "personId": 1,
       "columnId": 7,
-      "value": "abc@work.ee, cde@work.ee"
+      "value": "abc@work.ee"
     },
     {
       "id": 8,
@@ -168,25 +168,25 @@
       "id": 13,
       "personId": 2,
       "columnId": 4,
-      "value": "88888888, 66666666"
+      "value": "88888888"
     },
     {
       "id": 14,
       "personId": 2,
       "columnId": 5,
-      "value": "6555556, 6555555"
+      "value": "6555556"
     },
     {
       "id": 15,
       "personId": 2,
       "columnId": 6,
-      "value": "abv@personal.ee, cdv@personal.ee"
+      "value": "abv@personal.ee"
     },
     {
       "id": 16,
       "personId": 2,
       "columnId": 7,
-      "value": "abg@work.ee, cdg@work.ee"
+      "value": "abg@work.ee"
     },
     {
       "id": 17,
@@ -221,25 +221,25 @@
       "id": 22,
       "personId": 3,
       "columnId": 4,
-      "value": "55543333, 55543322"
+      "value": "55543333"
     },
     {
       "id": 23,
       "personId": 3,
       "columnId": 5,
-      "value": "6755444, 6755443"
+      "value": "6755444"
     },
     {
       "id": 24,
       "personId": 3,
       "columnId": 6,
-      "value": "kkk@personal.ee, ddd@personal.ee"
+      "value": "kkk@personal.ee"
     },
     {
       "id": 25,
       "personId": 3,
       "columnId": 7,
-      "value": "ppp@work.ee, ooo@work.ee"
+      "value": "ppp@work.ee"
     },
     {
       "id": 26,
@@ -537,6 +537,41 @@
       "id": 2,
       "name": "testPipeline2",
       "default": "0"
+    }
+  ],
+  "notes": [
+    {
+      "id": 1,
+      "content": "Test person note",
+      "personId": "1",
+      "companyId": "",
+      "dealId": "",
+      "added": "1525984038486",
+      "updated": "",
+      "addedBy": "testUser@test.abc",
+      "updatedBy": ""
+    },
+    {
+      "id": 2,
+      "content": "Test company note",
+      "personId": "",
+      "companyId": "1",
+      "dealId": "",
+      "added": "1525984038486",
+      "updated": "",
+      "addedBy": "testUser@test.abc",
+      "updatedBy": ""
+    },
+    {
+      "id": 3,
+      "content": "Test deal note",
+      "personId": "",
+      "companyId": "",
+      "dealId": "1",
+      "added": "1525984038486",
+      "updated": "",
+      "addedBy": "testUser@test.abc",
+      "updatedBy": ""
     }
   ]
 }
