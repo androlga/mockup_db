@@ -549,7 +549,8 @@
       "added": "1525984038486",
       "updated": "",
       "addedBy": "testUser@test.abc",
-      "updatedBy": ""
+      "updatedBy": "",
+      "active": true
     },
     {
       "id": 2,
@@ -560,7 +561,8 @@
       "added": "1525984038486",
       "updated": "",
       "addedBy": "testUser@test.abc",
-      "updatedBy": ""
+      "updatedBy": "",
+      "active": true
     },
     {
       "id": 3,
@@ -571,7 +573,8 @@
       "added": "1525984038486",
       "updated": "",
       "addedBy": "testUser@test.abc",
-      "updatedBy": ""
+      "updatedBy": "",
+      "active": true
     }
   ]
 }
