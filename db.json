@@ -22,7 +22,7 @@
     {
       "id": 1,
       "name": "companyId",
-      "title": "Company ID",
+      "title": "Company",
       "position": 1,
 	  "columnType": "numeric",
 	  "defaultColumn": "true"
@@ -408,7 +408,11 @@
       "value":"100",
       "currency":"Euro",
       "comment":"cheap deal",
-      "dealState":"1"
+      "dealState":"1",
+      "added":"1525984038486",
+      "updated":"",
+      "addedBy":"testUser@test.abc",
+      "updatedBy":""
 	  
     },
     { "id": 2,
@@ -419,28 +423,40 @@
       "value":"10000",
       "currency":"Euro",
       "comment":"MFD",
-      "dealState":"2"
+      "dealState":"2",
+      "added":"1525984038486",
+      "updated":"",
+      "addedBy":"testUser@test.abc",
+      "updatedBy":""
 	  
     },{ "id": 3,
-      "title": "Rehvi ostmine hulgilaost",
+      "title": "Rehvi ostmine hulgilaost 2",
       "contactPersonId": "2",
       "companyId":"2",
       "stateActions": "lost",
       "value":"10000",
       "currency":"Euro",
       "comment":"MFD",
-      "dealState":"3"
+      "dealState":"3",
+      "added":"1525984038486",
+      "updated":"",
+      "addedBy":"testUser@test.abc",
+      "updatedBy":""
 	  
     },
 	{ "id": 4,
-      "title": "Rehvi ostmine hulgilaost",
+      "title": "Rehvi ostmine hulgilaost 3",
       "contactPersonId": "2",
       "companyId":"2",
       "stateActions": "win",
       "value":"10000",
       "currency":"Euro",
       "comment":"MFD",
-      "dealState":"4"
+      "dealState":"4",
+      "added":"1525984038486",
+      "updated":"",
+      "addedBy":"testUser@test.abc",
+      "updatedBy":""
 	  
     },
 	{ "id": 5,
@@ -451,7 +467,11 @@
       "value":"100000",
       "currency":"Euro",
       "comment":"yes me",
-      "dealState":"1"
+      "dealState":"1",
+      "added":"1525984038486",
+      "updated":"",
+      "addedBy":"testUser@test.abc",
+      "updatedBy":""
 	  
     }
 	 ],
