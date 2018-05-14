@@ -407,7 +407,7 @@
       "stateActions": "",
       "value":"100",
       "currency":"EUR",
-      "comment":"cheap deal",
+      "comment":"Cheap deal",
       "dealState":"1",
       "added":"1525984038486",
       "updated":"",
@@ -422,7 +422,7 @@
       "stateActions": "",
       "value":"10000",
       "currency":"EUR",
-      "comment":"MFD",
+      "comment":"Parimad rehvid siin",
       "dealState":"2",
       "added":"1525984038486",
       "updated":"",
@@ -430,13 +430,13 @@
       "updatedBy":""
 	  
     },{ "id": 3,
-      "title": "Rehvi ostmine hulgilaost 2",
+      "title": "Rehvi ostmine välismaalt",
       "contactPersonId": "2",
       "companyId":"2",
       "stateActions": "lost",
       "value":"10000",
       "currency":"EUR",
-      "comment":"MFD",
+      "comment":"Kvaliteetsed",
       "dealState":"3",
       "added":"1525984038486",
       "updated":"",
@@ -445,13 +445,13 @@
 	  
     },
 	{ "id": 4,
-      "title": "Rehvi ostmine hulgilaost 3",
+      "title": "Liblikate müük",
       "contactPersonId": "2",
       "companyId":"2",
       "stateActions": "win",
       "value":"10000",
       "currency":"EUR",
-      "comment":"MFD",
+      "comment":"100% legaalne",
       "dealState":"4",
       "added":"1525984038486",
       "updated":"",
@@ -460,13 +460,13 @@
 	  
     },
 	{ "id": 5,
-      "title": "Second dashboard title",
+      "title": "Varuosade ostmine",
       "contactPersonId": "2",
       "companyId":"2",
       "stateActions": "",
       "value":"100000",
       "currency":"EUR",
-      "comment":"yes me",
+      "comment":"Peaaegu uued",
       "dealState":"1",
       "added":"1525984038486",
       "updated":"",
@@ -503,39 +503,34 @@
     },
     {
       "id": 6,
-      "name": "Lead in1",
+      "name": "Prospects",
       "stagePipelineId": 2
     },
     {
       "id": 7,
-      "name": "Contact Made2",
+      "name": "Contacted",
       "stagePipelineId": 2
     },
     {
       "id": 8,
-      "name": "Needs Defined3",
+      "name": "Agreed to meet",
       "stagePipelineId": 2
     },
     {
       "id": 9,
-      "name": "Proposal made4",
-      "stagePipelineId": 2
-    },
-    {
-      "id": 10,
-      "name": "Negotiation stated5",
+      "name": "Proposal made",
       "stagePipelineId": 2
     }
   ],
   "stagePipeline": [
     {
       "id": 1,
-      "name": "testPipeline1",
+      "name": "Default pipeline",
       "default": "1"
     },
     {
       "id": 2,
-      "name": "testPipeline2",
+      "name": "Additional pipeline",
       "default": "0"
     }
   ],
