@@ -1,21 +1,26 @@
 {
   "companies":[
     {
-      "id" : 1
+      "id" : 1,
+      "cid" : ""
     },
 	{
-      "id" : 2
+      "id" : 2,
+      "cid" : ""
     }
   ],
   "persons" : [
     {
-      "id": 1
+      "id": 1,
+      "cid" : ""
     },
 	{
-      "id": 2
+      "id": 2,
+      "cid" : ""
     },
 	{
-      "id" : 3
+      "id" : 3,
+      "cid" : ""
     }
   ],
   "personColumns": [
